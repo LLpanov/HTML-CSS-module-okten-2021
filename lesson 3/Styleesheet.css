@@ -1,0 +1,47 @@
+body,html{
+    scroll-behavior: smooth;
+}
+h1,.heading{
+    text-align: center
+}
+body{
+    background-color: papayawhip;
+    overflow: scroll;
+    margin: 0;
+}
+.line {
+    border: none;
+    color: black;
+    background-color: black;
+    height: .5px;
+}
+.father {
+   font-family: "Times New Roman"
+    font-size: 70%;
+}
+.child {
+    background: palegoldenrod;
+    border: 1px  solid gray;
+    padding: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.picture {
+margin-left: 250px;
+    margin-top: 50px;
+}
+h1,h6:hover{
+    color: #f65959;
+}
+h3,h4{
+    margin-left: 10px;
+}
+.brother {
+    border: 2px solid grey;
+    margin: 10px;
+    border-radius: 10px;
+    background: aqua;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 500px;
+}

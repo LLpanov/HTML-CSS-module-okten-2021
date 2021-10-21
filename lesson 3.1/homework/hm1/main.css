@@ -1,0 +1,45 @@
+.father {
+    width: 1100px;
+    height: 600px;
+    background-color: bisque;
+    display: flex;
+    border: solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.a{
+    width: 99%;
+    margin: 10px;
+    background-color: gold;
+    height: 200px;
+    display: flex;
+
+}
+.b{
+    width: 55%;
+    height: 300px;
+    background-color: cornflowerblue;
+
+
+
+}
+.c{
+    height: 300px;
+    width: 35%;
+    background-color: green;
+
+
+    
+}

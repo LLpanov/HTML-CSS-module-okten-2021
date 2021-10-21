@@ -1,0 +1,30 @@
+body,html{
+    scroll-behavior: smooth;
+}
+
+h1, .heading {
+    text-align: center;
+}
+
+img.picture {
+    float: right;
+    border: 2px solid deepskyblue;
+    width: 250px;
+    height: 300px;
+}
+h1:hover{
+    color: aqua;
+}
+h2:hover{
+    color: aqua;}
+hr {
+    border: none;
+    color: black;
+    background-color: black;
+    height: 1px;
+}
+p.text{
+    text-align: justify;
+
+}
+
