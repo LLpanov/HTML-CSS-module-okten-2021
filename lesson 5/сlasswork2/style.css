@@ -8,14 +8,18 @@
     list-style: none;
 }
 
+.nav__burger_button{
+    display: none;
+}
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
 }
+
 .soc-icon{
     background: #3AC6EA ;
-    height: 30px;
+    height: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -23,8 +27,8 @@
     padding: 0 25px;
 }
 .soc-icon__link{
-    width: 30px;
-    height: 5px;
+    width: 60px;
+    height: 10px;
     background:#071724 ;
     display: flex;
     border-radius: 20px;
@@ -90,6 +94,7 @@
     color: wheat;
     height: 50px;
     cursor: pointer;
+    font-size: 20px;
 }
 .products__title{
     align-items: center;
@@ -147,7 +152,7 @@
 .about__grid{
     display: flex;
     justify-content: center;
-    column-gap: 500px;
+    column-gap: 300px;
 }
 .about_card{
     width: 30%;
