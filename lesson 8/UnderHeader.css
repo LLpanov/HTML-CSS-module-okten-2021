@@ -1,0 +1,183 @@
+.under{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.button-katalog{
+    width: 264px;
+    height: 53px;
+    min-width: 34px;
+    min-height: 34px;
+    background: #005BB9;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    column-gap: 12px;
+    transition: 0.3s;
+}
+.liked.active path{
+    fill: red;
+}
+input{
+    width: 80%;
+    min-height: 34px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    background: #F4F5FA;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    padding: 14px 39px;
+    opacity: 0.7;
+    outline: none;
+    display: block;
+    margin-left: 20px;
+}
+input:hover{
+    border: 1px solid #005BB9;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+.seach{
+    display: flex;
+    width: 100%;
+}
+.nayti{
+    width: 15%;
+    height: 53px;
+    min-width: 34px;
+    min-height: 34px;
+
+    background: #005BB9;
+    border-radius: 0 6px 6px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nayti h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: block;
+}
+.nayti svg{
+    display: none;
+}
+.button-katalog h2{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.button-katalog span{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+}
+
+.button-katalog span:before{
+    content: "";
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: -5px;
+}
+.button-katalog span:after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 3px;
+    top:5px;
+    text-overflow: ellipsis;
+}
+.basket{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+.basket>div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+    cursor: pointer;
+    border-left: 1px solid #E1E5F8;
+     padding-left: 10px;
+}
+.basket>div:nth-child(1){
+    border: none;
+    padding-left:0;
+}
+.basket h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    white-space: nowrap;
+}
+@media screen and (max-width: 1440px) {
+    .seach input {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        margin-left: 20px;
+    }
+    .button-katalog h2 {
+        display: none;
+    }
+
+    .nayti h2 {
+        font-size: 13px;
+    }
+    .basket h2 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .basket svg {
+        width: 21px;
+        height: 18px;
+    }
+    .basket>div{
+        flex-direction: column;
+
+    }
+    .basket>div h2{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .basket{
+        display: none;
+    }
+    .nayti h2 {
+        display: none;
+    }
+    .nayti svg{
+        display: block;
+    }
+    .button-katalog{
+      height: 34px;
+        width: 34px;
+    }
+    .seach input{
+        height: 34px;
+        margin-left: 20px;
+    }
+    .nayti{
+        height: 34px;
+        width: 34px;
+    }
+}
+
+
